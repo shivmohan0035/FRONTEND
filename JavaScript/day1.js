@@ -1,0 +1,1 @@
+console.log("This is third way to execute javascript code but must conect the file with html file using script tag and src attribute");
