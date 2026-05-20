@@ -11,7 +11,7 @@ let anchor=document.querySelector("#fanchor");
 
 anchor.addEventListener("click", click);   // This will call the click function whenever the anchor tag is clicked, and the default action of navigating to "https://www.google.com" will be prevented due to the event.preventDefault() method called within the click function.
 
-//Avoiding to manny event listeners
+//Avoiding to many event listeners
  
 let paras=document.querySelectorAll("p");
 // for(let i=0; i<paras.length; i++){
