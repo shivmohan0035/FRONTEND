@@ -1,0 +1,20 @@
+ making react folder with the help of  ## vite -->  npm create vite@latest  
+
+ vite is bundler which is used to create react app. 
+ It is very fast and easy to use. 
+ It is used to create a new react app with the help of command line. 
+ It is also used to run the react app in development mode. 
+
+ step1- npm create vite@latest
+ step2- npm install
+ step3- npm run dev
+
+ main.jsx is parent of app.jsx file. 
+
+ ===> index.html  ---> main.jsx  ---> app.jsx  
+
+ index.html file we have to add the script tag to include the main.jsx file.
+ main.jsx call function written in app.jsx and also all app.jsx code ko index.htlm ke root wale div me dal deta hai
+
+
+ icons, images, svg etc. are store in assets folder(jo bhot baar use ho raha hai) and public folder.
