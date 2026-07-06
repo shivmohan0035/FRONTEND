@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+html, body, #root{
+  height: 100%;
+  width: 100%;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+body{
+  background-color: #1cc3e4;
+}
+
+h1{
+  display: flex;
+  justify-content: center;
+ 
+  height: 100%;
+  color: #e31111;
+  font-size: 2rem;
+  font-family:'georgia', 'Times New Roman', Times, serif;
+}
+
+
