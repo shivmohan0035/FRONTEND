@@ -23,3 +23,10 @@
 
 
  icons, images, svg etc. are store in assets folder(jo bhot baar use ho raha hai) and public folder.
+
+
+ Map Method ----> Render list from array data
+
+ syntax--> 
+  {list_items.map(item => <li key={item_id}> {item_name} </li>)}
+
