@@ -26,7 +26,15 @@
 
 
  Map Method ----> Render list from array data
-
  syntax--> 
   {list_items.map(item => <li key={item_id}> {item_name} </li>)}
+
+
+Condition Rendering   ----> Display content based on certain conditions . it is allows for dynamic UI.
+Methods--->
+(1) if-else
+(2) Ternary operators
+(3) Logical operators  --->inplace of using Ternary operator , {foodItems.length===0 (--->Condition) && <h1>No Food Items Available..</h1> }
+
+falsy---> null,undefined, 0 ,false, NaN,empty
 
