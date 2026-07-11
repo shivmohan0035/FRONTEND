@@ -3,3 +3,9 @@
   background-color: #ec9418a6;
   color: #3f0fdb;
 } 
+
+.item-name {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #db0f0f;
+}
