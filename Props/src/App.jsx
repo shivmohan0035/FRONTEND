@@ -1,6 +1,7 @@
 import FoodItems from "./components/FoodItems";
 import ErrorMessage from "./components/ErrorMessage";
 import Container from "./components/Container";
+import FoodInput from "./components/FoodInput";
 
 function App() {
   // let food_Items = [];
@@ -16,8 +17,13 @@ function App() {
       
     </Container>
 
-    <Container>
+    {/* <Container>
       <h2>This is second Container.</h2>
+    </Container> */}
+
+
+    <Container>
+      <FoodInput></FoodInput>
     </Container>
     </>
   );
