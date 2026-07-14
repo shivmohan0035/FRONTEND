@@ -1,9 +1,10 @@
 import styles from "./Display.module.css";
 
-const Display = () =>
+const Display = ({displayValue}) =>
    {
     return (
-      <input type="text" className={styles.display} placeholder="Enter number" />
+      <input type="text" className={styles.display} placeholder="Enter number"
+      value={displayValue} readOnly/>
     );
 }
 

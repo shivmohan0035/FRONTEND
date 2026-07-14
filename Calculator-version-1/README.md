@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🧮 React Calculator
 
 A simple and responsive calculator application built using **React.js**. It performs basic arithmetic operations with a clean user interface and demonstrates React concepts such as **Components**, **Props**, **State Management**, and **Event Handling**.
@@ -126,3 +127,16 @@ npm run dev
 ## ⭐ Support
 
 If you found this project helpful, consider giving it a ⭐ on GitHub.
+=======
+![alt text](image.png)
+
+
+          !!!!!! Final Calculator !!!!!!
+
+          ![alt text](image-1.png)
+
+
+          Result :-
+
+          ![alt text](image-2.png)
+>>>>>>> a921959 (Mini Project - 1 Calculator)

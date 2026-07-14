@@ -41,12 +41,13 @@ falsy---> null,undefined, 0 ,false, NaN,empty
 
 
 Managing State :
+
 State represents data that chages over time.
-state is local and private to the component.
+state is local and private(mutable) to the component.
 
 
 UseState() hook  :  ----> useState contains arry with two elments
 syntax ---> const [selectedRoom , setSelectedRoom ] = useState (initialValue ---> it may be empty array-->[])
-selectedRoom is value --> react assigns the current value to the first element
-setSelectedRoom is update function ----> react assigns the update function to the second elments
+selectedRoom is value --> react assigns the current value to the first element  <---- jo just current key press kiye hai
+setSelectedRoom is update function ----> react assigns the update function to the second elments 
 
